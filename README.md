@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+<h1 align="center">Welcome to Kanban Board Application👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This is a Kanban Board application built with Vite and React.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
 
-## Expanding the ESLint configuration
+   ```bash
+   git clone https://github.com/dynamic-hari/kanban-board-application.git
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. **Navigate to the project directory:**
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   cd kanban-board-application
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+To start the development server, run:
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will start the Vite development server, and you can view the application by navigating to [`http://localhost:5173`](http://localhost:5173/) in your web browser.
